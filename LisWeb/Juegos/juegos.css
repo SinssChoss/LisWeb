@@ -1,0 +1,143 @@
+/* Estilo para el cuerpo de la página */
+* {
+  font-family: "Lato";
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6e4f6;
+  margin: 0;
+  padding: 0;
+}
+section {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  min-height: 10vh; /* Esto centra verticalmente los elementos */
+}
+
+/* Estilo para el encabezado */
+header {
+  background-color: #e08dab;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+/* Estilo para la sección de juegos */
+#juegos {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column-reverse; /* Cambia el orden de visualización */
+  align-items: center; /* Centra verticalmente */
+  min-height: 10vh; /* Esto centra verticalmente los elementos */
+  flex-wrap: wrap;
+}
+
+/* Estilo para el título de la sección de juegos */
+.title {
+  font-size: 36px;
+  color: #333;
+  margin: -30px; /* Reducir el espacio vertical */
+  padding: 20px;
+}
+/* Estilo para los cuadros de juego */
+.juego1{
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Limita el ancho de los cuadros para que no sean demasiado anchos */
+  margin: 0 10px; /* Espacio entre los cuadros */
+}
+/* Estilo para las imágenes de los juegos */
+.juego1 img{
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+/* Estilo para los botones */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Estilo para el enlace de los botones */
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilo para el texto de la sección de juegos */
+.sectiontext1 {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Estilo para los enlaces */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilo para los enlaces cuando se les pasa el ratón por encima */
+a:hover {
+  color: #555;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+span {
+  color: #f6bdd1;
+}
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #363537;
+  padding: 0 10px;
+  font-family: "Young serif";
+  text-align: center;
+  list-style: none;
+}
+
+footer ul {
+  list-style: none; /* Quita las viñetas de la lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+  text-align: center;
+}
+
+footer ul li {
+  display: inline; /* Hace que los elementos de la lista estén en línea uno al lado del otro */
+  margin: 0 10px; /* Añade margen entre los elementos */
+}
